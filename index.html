@@ -21,17 +21,19 @@
 
 <body>
 	<script>
-		function myButton()
+		function go(name)
 		{
-			window.location.href = 'anime';
+			window.location.href = `${name}`;
 		}
 	</script>
 
-	<div class="text">
-		<p>Sayfa'ma Hoşgeldin</p>
+	<div>
+		<div class="text" font-color="black" font-size="1.6em">
+			<p onclick="go('')">Sayfa'ma Hoşgeldin</p>
+		</div>
 		
-		<div class="text" font-color="blue">
-			<p onclick="myButton()">Anime Puncher</p>
+		<div class="text" font-color="blue" font-size="1.3em">
+			<p onclick="go('anime')">Anime Puncher</p>
 		</div> 
 	</div>
 </body>
