@@ -9,7 +9,6 @@
 
 	<style>
 		.text {
-			text-align: center;
 			top: 2%;
 			left: 1%;
 			font-family: 'Roboto', sans-serif;
@@ -20,17 +19,17 @@
 </head>
 
 <body>
-	<div class="text">
-		<p>Sayfa'ma Hoşgeldin</p>
-		<p onclick="button()" font-size="1.0em">Anime Puncher</p>
-	</div>
-
 	<style>
-		function button()
+		function myButton()
 		{
 			window.location.href = 'anime';
 		}
 	</style>
+
+	<div class="text">
+		<p>Sayfa'ma Hoşgeldin</p>
+		<p onclick="myButton()" font-size="1.0em">Anime Puncher</p>
+	</div>
 </body>
 
 </html>
