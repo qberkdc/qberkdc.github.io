@@ -13,8 +13,10 @@
 		function calculator()
 		{
 			let process = prompt("Calculate in:");
+			process.replace("÷", "/");
+			process.replace("×", "*");
 			var result = parseInt(process);
-			${'cal'}.text(`${result}`);
+			$('cal').text(`${result}`);
 		}
 	</script>
 
