@@ -10,15 +10,17 @@
 
 <body>
 	<script>
-		function go(name)
+		function calculator()
 		{
-			window.location.href = `${name}`;
+			let process = prompt("Calculate in:");
+			var result = parseInt(process);
+			${'cal'}.text(`${result}`);
 		}
 	</script>
 
-	<div>
-		<div margin-top="2%" text-align="center" font-family="'Roboto', sans-serif" font-size="2.0em" color="aqua"> <span onclick="go('')">Hoşgeldin</span> </div>
-		<div margin-top="2%" text-align="center" font-family="'Roboto', sans-serif" font-size="2.0em" color="ltblue"> <span onclick="go('anime')">/anime</span> </div>
+	<div align="center">
+		<div id="cal"> <span>Your result in here</div>
+		<button onclick="calculator()">Calculate</button>
 	</div>
 </body>
 
