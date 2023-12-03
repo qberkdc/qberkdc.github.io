@@ -22,9 +22,9 @@ body {
 body {
     font-family: "DungGeunMo";
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #121212;
+    margin-left: 50%;
+    margin-top: 50%;
+    background: #404040;
 }
 
 /* calculator */
@@ -52,8 +52,6 @@ body {
     height: 5rem;
     line-height: 5rem;
     font-size: 1.5rem;
-    text-align: center;
-    left: 50%;
 }
 
 #tmp {
