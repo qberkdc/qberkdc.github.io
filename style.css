@@ -51,8 +51,9 @@ body {
 #input {
     height: 5rem;
     line-height: 5rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
+    left: 50%;
 }
 
 #tmp {
